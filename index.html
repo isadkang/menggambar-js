@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playground Menggambar - IrsyadNat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <p>Irsyadnat.v2</p>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li>Github</li>
+                <li>My Website</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="playground">
+      <canvas id="drawingCanvas" width="400" height="400"></canvas>
+
+      <div class="controls">
+        <div class="reset">
+          <button id="resetButton"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+        <div class="cursor">
+          <button id="penCursorButton"><i class="fa-solid fa-pen"></i></button>
+        </div>
+        <div class="color">
+          <input type="color" id="colorPicker" value="#000000" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>©️2023 - Muhammad Irsyad Nataprawira</p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/a5b3cea73d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+  </body>
+</html>
