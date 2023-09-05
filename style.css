@@ -23,14 +23,17 @@ header {
     display: flex;
 }
 
-.nav-links li {
+.nav-links li a{
     margin-right: 20px; 
     font-size: 18px; 
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
-.nav-links li:hover {
+.nav-links li a:hover {
     text-decoration: underline; 
+    cursor: pointer;
 }
 
 .playground {
